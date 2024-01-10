@@ -23,10 +23,10 @@
 ---
 ## *ls command*
 1. 
-    ```
+   ```
     [user@sahara ~]$ ls
     lecture1
-    ```
+   ```
 2. 
    ```
    [user@sahara ~]$ ls lecture1/
@@ -39,7 +39,7 @@
    ``` 
 ---
 ## *cat command*
-1. .
+1. 
    ```
    [user@sahara ~]$ cat
    
