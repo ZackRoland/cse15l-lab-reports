@@ -1,7 +1,7 @@
 # **LAB 1**
 ---
 ## *cd command*
-1. .
+1. 
    ```
    [user@sahara ~]$ cd
    [user@sahara ~]$ 
@@ -17,7 +17,7 @@
    ```
 3. 
    ```
-   [user@sahara ~]$ cd lecture1/messages/ja.txt 
+   [user@sahara ~]$ cd lecture1/messages/ja.txt
    bash: cd: lecture1/messages/ja.txt: Not a directory
    ```
 ---
@@ -34,7 +34,7 @@
    ```
 3. 
    ```
-   [user@sahara ~]$ ls lecture1/messages/ja.txt 
+   [user@sahara ~]$ ls lecture1/messages/ja.txt
    lecture1/messages/ja.txt
    ``` 
 ---
@@ -49,9 +49,9 @@
    [user@sahara ~]$ cat lecture1/
    cat: lecture1/: Is a directory
    ```
-3. .
+3. 
    ```
-   [user@sahara ~]$ cat lecture1/messages/ja.txt 
+   [user@sahara ~]$ cat lecture1/messages/ja.txt
    「こんにちは世界」
    ``` 
 ---
