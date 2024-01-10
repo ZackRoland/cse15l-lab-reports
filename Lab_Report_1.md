@@ -1,16 +1,16 @@
-# ** LAB 1 **
+# **LAB 1**
 ---
-## * cd command*
-
-
-
----
-## * ls Command*
+## *cd command*
 
 
 
 ---
-## * cat command*
+## *ls Command*
+
+
+
+---
+## *cat command*
 
 
 
