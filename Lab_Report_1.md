@@ -44,12 +44,12 @@
    [user@sahara ~]$ cat
    
    ```
-2. 
+3. 
    ```
    [user@sahara ~]$ cat lecture1/
    cat: lecture1/: Is a directory
    ```
-3. 
+4. 
    ```
    [user@sahara ~]$ cat lecture1/messages/ja.txt
    「こんにちは世界」
