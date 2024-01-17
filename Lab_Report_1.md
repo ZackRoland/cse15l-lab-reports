@@ -58,7 +58,7 @@
    
 ---
 ## *cat command*
-1. 
+1. .
    ```
    [user@sahara ~]$ cat
 
@@ -66,14 +66,14 @@
    Working Directory is the Home Directory, the cat takes in file as the argument and returns the contents of it,
    since there is no argument we get a blank line being returned signifying just nothing as there is nothing
    there to return. This is not an error.
-2. 
+2. .
    ```
    [user@sahara ~]$ cat lecture1/
    cat: lecture1/: Is a directory
    ```
    Working Directory is the Home Directory, having a directory as an argument results in an error which is expected
    since cat can only work with files and as such can only take in file paths as arguments.
-5. 
+3. .
    ```
    [user@sahara ~]$ cat lecture1/messages/ja.txt
    「こんにちは世界」
