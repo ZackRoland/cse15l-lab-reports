@@ -61,7 +61,7 @@
 1. 
    ```
    [user@sahara ~]$ cat
-    
+
    ```
    Working Directory is the Home Directory, the cat takes in file as the argument and returns the contents of it,
    since there is no argument we get a blank line being returned signifying just nothing as there is nothing
