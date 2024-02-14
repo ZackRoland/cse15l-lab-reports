@@ -48,7 +48,19 @@ class ChatServer {
 /add-message?s=Hello&user=jpolitz
 ```
 ![Image](https://i.postimg.cc/5NqMrWRX/Lab-2-Screenshot-1.png)
+1) The method in the code that is called is the handleRequest method which takes in a url and displays the user and message when given the input
+2) The relevant argument to the handleRequest method is the url since that is the main input were working with
+3) This specific request identifies a unique user so the user and message values get set which subsequently sets the usersMessage variable
+from which the messageHistory variable gets updated with to add the usersMessage to it. the end result is returning what is stored in usersMessage
+and if the path is just "/" the messageHistory is displayed which displays all the messages that lie within messageHistory. The screenshot is the result
+of entering the path of "/" which displays only 1 message since just 1 message has been stored as of yet
 ```
 /add-message?s=How are you&user=yash
 ```
 ![Image](https://i.postimg.cc/sgTCV9yy/Lab-2-Screenshot-2.png)
+1) The method in the code that is called is the handleRequest method which takes in a url and displays the user and message when given the input
+2) The relevant argument to the handleRequest method is the url since that is the main input were working with
+3) This specific request identifies a unique user so the user and message values get set which subsequently sets the usersMessage variable
+from which the messageHistory variable gets updated with to add the usersMessage to it. the end result is returning what is stored in usersMessage
+and if the path is just "/" the messageHistory is displayed which displays all the messages that lie within messageHistory. he screenshot is the result
+of entering the path of "/" which displays 2 messages instead of one since "jpolitz" had added a message previously
