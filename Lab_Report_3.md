@@ -72,6 +72,16 @@ Explanation of Fix:
 > to the temporary array so that the changes will be displayed
 > 
 ---
-## **Part 2**
+## **Part 2-Researching Commands**
+The Command of Interest is the Grep Command
+[link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+1) The first command line option is: -v
+> "-v"
+3) The second command line option is: -A n
+> "-A n"
+4) The third command line option is: -B n
+> "-B n"
+5) The fourth command line option is: -C n
+> "-C n"
 ---
 
