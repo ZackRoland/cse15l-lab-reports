@@ -44,3 +44,11 @@ class ChatServer {
     }
 }
 ```
+```
+/add-message?s=Hello&user=jpolitz
+```
+![Image]()
+```
+/add-message?s=How are you&user=yash
+```
+![Image]()
