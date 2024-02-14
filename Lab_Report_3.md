@@ -106,7 +106,7 @@ Example 1:
 "WE HAVE SOME PLANES"
 
 ```
->
+> grep -A1 prints the searched line and 1 line after it which in this case is an empty line
 ```
 Example 2:
 [zroland@its-cseb230-25]:docsearch:525$ grep -A10 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
@@ -122,7 +122,7 @@ Boarding the Flights
 
     Boston: American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's Logan International Airport
 ```
->
+> grep -A10 prints the searched line and 10 lines after the searched line which is the intro to the file
 3) The third command line option is: -B n
 > "-B n" Prints searched line and n line before the result.
 ```
@@ -131,23 +131,28 @@ Boarding the Flights
 
 "WE HAVE SOME PLANES"
 ```
->
+> grep -B1 prints the searched line and 1 line before it which in this case like A1 is an empty line
 ```
 Example 2:
-[zroland@its-cseb230-25]:docsearch:528$ grep -B1 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
+[zroland@its-cseb230-25]:docsearch:534$ grep -B10 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt           
+
+
 
 "WE HAVE SOME PLANES"
 ```
+> grep -B10 prints the searched line and 10 lines before it, however in this case the file only has 3 lines before the
+> searched line so it just returns the searched line and however as many lines there are before it reaches the
+> beginning of the file
 4) The fourth command line option is: -C n
-> "-C n" Prints searched line and n lines after before the result.
+> "-C n" Prints searched line and n lines after and before the result.
 ```
 Example 1:
-[zroland@its-cseb230-25]:docsearch:528$ grep -B1 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
+[zroland@its-cseb230-25]:docsearch:528$ grep -C1 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
 
 "WE HAVE SOME PLANES"
 
 ```
->
+> grep -C1 prints the searched line and 1 line before and after the searched line which in this case are both empty lines
 ```
 Example 2:
 [zroland@its-cseb230-25]:docsearch:533$ grep -C10 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
@@ -166,6 +171,8 @@ Boarding the Flights
 
     Boston: American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's Logan International Airport.
 ```
-> 
+> grep -C10 prints the searched line and 10 lines before and after the searcvhed line. However, in this case since there is once again only 3 lines before the searched line;
+> grep -C1 only prints out the searched line, 3 lines before the searched line, and  10 lines after since were intially searching for 10 lines and there does exist 10 lines
+> after the searched line.
 ---
 
