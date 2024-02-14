@@ -1,7 +1,8 @@
 #**LAB 3**
 ---
 ## **Part 1-Bugs**
-> The bug of focus for this part is for the reverseInPlace method in ArrayExamples
+The bug of focus for this part is for the reverseInPlace method in ArrayExamples
+
 1) A failure Inducing input:
 ```
 int[] input2 = {1,2,3};
@@ -53,6 +54,7 @@ Explanation of Bug:
 > but when we get to arr[2], arr[2] will be set to arr[0] but we already set arr[0] so arr[2] will get set to the same
 > value as arr[0] resulting in an array of {3,2,3} instead of {3,2,1} that we were initally looking for. The araay {3}
 > wouldn't have resulted in a bug since there wasn't enough elements in the array to allow for that mismatchup.
+
 After:
 ```
 static void reverseInPlace(int[] arr) {
@@ -66,17 +68,21 @@ static void reverseInPlace(int[] arr) {
  }
 
 ```
+
 Explanation of Fix:
 > This key to patching this bug is creating a remporary array of the same size of the orginal array so that
 > we are not actually changing the orginal array's values whilist looping through it. Afterwards we set the orginal array
 > to the temporary array so that the changes will be displayed
-> 
+
 ---
+
 ## **Part 2-Researching Commands**
+
 The Command of Interest is the Grep Command
 [link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
 1) The first command line option is: -v
-> "-v" This prints out all the lines that do not matches the pattern
+"-v" This prints out all the lines that do not matches the pattern
 ```
 Example 1:
 [zroland@its-cseb230-25]:docsearch:518$ grep ".txt" find-results.txt > grep-results.txt
@@ -86,27 +92,34 @@ Example 1:
 [zroland@its-cseb230-25]:docsearch:521$ wc grep-v-results.txt 
 0 0 0 grep-v-results.txt
 ```
+
 > First store the lines that contain ".txt" into grep-results then stored the lines in grep-results 
 > that do not contain ".txt" in grep-v-results and took the count of that which returns 0 lines since
 > all the lines in grep-results are .txt files
+
 ```
 Example 2:
 [zroland@its-cseb230-25]:docsearch:522$ grep -v ".txt" find-results.txt > grep-v-results2.txt
 [zroland@its-cseb230-25]:docsearch:523$ wc grep-v-results2.txt 
  11  11 291 grep-v-results2.txt
 ```
+
 > This example stores all the lines in find-results.txt that aren't ".txt" files into grep-v-results2.txt
 > and get the count of the lines which shows only 11 non ".txt" files
 
 2) The second command line option is: -A n
+
 > "-A n" Prints searched line and nlines after the result.
+
 ```
 Example 1:
 [zroland@its-cseb230-25]:docsearch:524$ grep -A1 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
 "WE HAVE SOME PLANES"
 
 ```
+
 > grep -A1 prints the searched line and 1 line after it which in this case is an empty line
+
 ```
 Example 2:
 [zroland@its-cseb230-25]:docsearch:525$ grep -A10 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
@@ -122,16 +135,21 @@ Boarding the Flights
 
     Boston: American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's Logan International Airport
 ```
+
 > grep -A10 prints the searched line and 10 lines after the searched line which is the intro to the file
+
 3) The third command line option is: -B n
-> "-B n" Prints searched line and n line before the result.
+"-B n" Prints searched line and n line before the result.
+
 ```
 > Example 1:
 [zroland@its-cseb230-25]:docsearch:528$ grep -B1 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
 
 "WE HAVE SOME PLANES"
 ```
+
 > grep -B1 prints the searched line and 1 line before it which in this case like A1 is an empty line
+
 ```
 Example 2:
 [zroland@its-cseb230-25]:docsearch:534$ grep -B10 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt           
@@ -140,11 +158,14 @@ Example 2:
 
 "WE HAVE SOME PLANES"
 ```
+
 > grep -B10 prints the searched line and 10 lines before it, however in this case the file only has 3 lines before the
 > searched line so it just returns the searched line and however as many lines there are before it reaches the
 > beginning of the file
+
 4) The fourth command line option is: -C n
-> "-C n" Prints searched line and n lines after and before the result.
+"-C n" Prints searched line and n lines after and before the result.
+
 ```
 Example 1:
 [zroland@its-cseb230-25]:docsearch:528$ grep -C1 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
@@ -152,7 +173,9 @@ Example 1:
 "WE HAVE SOME PLANES"
 
 ```
+
 > grep -C1 prints the searched line and 1 line before and after the searched line which in this case are both empty lines
+
 ```
 Example 2:
 [zroland@its-cseb230-25]:docsearch:533$ grep -C10 "WE HAVE SOME PLANES" technical/911report/chapter-1.txt
@@ -171,8 +194,10 @@ Boarding the Flights
 
     Boston: American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's Logan International Airport.
 ```
+
 > grep -C10 prints the searched line and 10 lines before and after the searcvhed line. However, in this case since there is once again only 3 lines before the searched line;
 > grep -C1 only prints out the searched line, 3 lines before the searched line, and  10 lines after since were intially searching for 10 lines and there does exist 10 lines
 > after the searched line.
+
 ---
 
