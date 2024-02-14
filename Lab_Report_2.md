@@ -47,8 +47,8 @@ class ChatServer {
 ```
 /add-message?s=Hello&user=jpolitz
 ```
-![Image]()
+![Image](https://i.postimg.cc/5NqMrWRX/Lab-2-Screenshot-1.png)
 ```
 /add-message?s=How are you&user=yash
 ```
-![Image]()
+![Image](https://i.postimg.cc/sgTCV9yy/Lab-2-Screenshot-2.png)
