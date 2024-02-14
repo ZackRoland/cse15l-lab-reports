@@ -90,3 +90,9 @@ of entering the path of "/" which displays 2 messages instead of one since "jpol
 ---
 
 ## **PART 3**
+
+> In weeks 2 and 3 something new I had learned was how to instantiate a webserver. Moreso, how to instaniate a webserver that is take in and act on inputs
+> which I had gotten direct pratice on with creating the webserver for part 1 on this lab report. Perhaps the most difficult part of the process was getting
+> used to the different parts of a web url and how to utilize those parts to create an interactive webserver. With my current knowledge of how webservers wortk I feel like I could
+> apply this knowledge to create a simple calculator type webserver that takes in users input through the url or a tic-tac-toe type game. Learning more on this topic will
+> allow me to create a more interactive webspace that is able to do more complex things.
