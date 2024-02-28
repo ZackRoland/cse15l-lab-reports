@@ -6,7 +6,7 @@
 **STEP 5:**
 >git clone https://github.com/ucsd-cse15l-s23/lab7.git
 
-![Image](https://postimg.cc/vc55f6Y7)
+![Image](https://postimg.cc/LnMFNrSd)
 
 **STEP 6:**
 >bash test.sh
