@@ -6,7 +6,7 @@
 **STEP 5:**
 >git clone https://github.com/ucsd-cse15l-s23/lab7.git
 
-![image](https://ibb.co/LRNf267)
+![image](https://app.gemoo.com/share/image-annotation/621345542035120128?codeId=PYaRe4R3369wV&origin=imageurlgenerator&card=621345541712187392)
 
 **STEP 6:**
 >bash test.sh
