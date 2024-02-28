@@ -14,7 +14,7 @@
 >bash test.sh
 >this command runs the tests for ListExamples, it fails one as expected
 
-![Image](https://postimg.cc/5XHJFPtR)
+![Image](https://i.postimg.cc/XYLYmm64/temp-Image-Ulr0-SJ.avif)
 
 **STEP 7:**
 >Keys Pressed:
@@ -25,12 +25,12 @@
 >1e moves the cursor to the end of the 1st word which is the exact position of the error
 >r2 replaces the element on the cursor with 2
 
-![Image](https://postimg.cc/nXKkTxMj)
+![Image](https://i.postimg.cc/CxXQhLgN/temp-Imagessha-Mx.avif)
 
 **STEP 8:**
 >bash test.sh
 >the bash command runs the tests for ListExamples, it passes
-![Image](https://postimg.cc/mcjWvKph)
+![Image](https://i.postimg.cc/bJcYthQ0/temp-Image2b2-Cwc.avif)
 
 **STEP 9:**
 >git add .
@@ -41,4 +41,4 @@
 >
 >rm -rf lab7/ (Command to delete directory)
 
-![Image](https://postimg.cc/tZbtxM9d)
+![Image](https://i.postimg.cc/9MRxs6Sk/temp-Imagezo-D6gj.avif)
