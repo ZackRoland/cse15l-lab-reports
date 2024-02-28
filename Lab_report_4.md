@@ -10,7 +10,8 @@
 >bash test.sh
 
 **STEP 7:**
->Keys Pressed: 
+>Keys Pressed:
+>
 >vim ListExamples.java, 44G, 1e, r2, :wq
 
 **STEP 8:**
@@ -18,8 +19,11 @@
 
 **STEP 9:**
 >git add .
+>
 >git commit -m “committed”
->git push 
+>
+>git push
+>
 >rm -rf lab7/ (Command to delete directory)
 
  
