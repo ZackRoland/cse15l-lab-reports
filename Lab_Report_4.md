@@ -8,7 +8,7 @@
 >git clone https://github.com/ucsd-cse15l-s23/lab7.git
 >This command clones the lab7 repository into the ssh
 
-![Image](https://postimg.cc/LnMFNrSd)
+![Image](https://i.postimg.cc/SNnQNhtK/temp-Imagea-NDcrb.avif)
 
 **STEP 6:**
 >bash test.sh
