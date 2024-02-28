@@ -1,4 +1,5 @@
-#LAB 4: Vim
+# LAB 4: Vim
+
 **STEP 4:**
 >ssh zroland@ieng6.ucsd.edu
 
