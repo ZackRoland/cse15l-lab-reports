@@ -6,24 +6,24 @@
 **STEP 5:**
 >git clone https://github.com/ucsd-cse15l-s23/lab7.git
 
-![image](https://postimg.cc/dhgWN6jp)
+![Image](https://postimg.cc/dhgWN6jp)
 
 **STEP 6:**
 >bash test.sh
 
-![image](https://postimg.cc/5XHJFPtR)
+![Image](https://postimg.cc/5XHJFPtR)
 
 **STEP 7:**
 >Keys Pressed:
 >
 >vim ListExamples.java, 44G, 1e, r2, :wq
 
-![image](https://postimg.cc/nXKkTxMj)
+![Image](https://postimg.cc/nXKkTxMj)
 
 **STEP 8:**
 >bash test.sh
 
-![image](https://postimg.cc/mcjWvKph)
+![Image](https://postimg.cc/mcjWvKph)
 
 **STEP 9:**
 >git add .
@@ -34,4 +34,4 @@
 >
 >rm -rf lab7/ (Command to delete directory)
 
-![image](https://postimg.cc/tZbtxM9d)
+![Image](https://postimg.cc/tZbtxM9d)
